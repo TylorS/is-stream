@@ -1,6 +1,6 @@
 {
   "name": "@typed/is-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Duck-typing check if a value is a most.js Stream",
   "main": "lib/index.js",
   "scripts": {
