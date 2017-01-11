@@ -9,6 +9,14 @@
 npm install --save @typed/is-stream
 ```
 
-## API
+## Usage
 
-<!-- Describe your API here -->
+```typescript
+import { isStream } from '@typed/is-stream';
+import { just } from 'most';
+
+
+isStream(just(1)) // true
+isStream([]) // false
+isStream({}) // false 
+```
